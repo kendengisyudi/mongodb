@@ -5,7 +5,7 @@
 sudo apt update && sudo apt upgrade -y
 sudo reboot
 ```
-## INTALL MONGODB
+### MULAI INTALL MONGODB
 
 ### Impor Kunci GPG MongoDB
 ```
