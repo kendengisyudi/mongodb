@@ -3,6 +3,7 @@
 ### UPDATE SYSTEM
 ```
 sudo apt update && sudo apt upgrade -y
+sudo reboot
 ```
 ## INTALL MONGODB
 
