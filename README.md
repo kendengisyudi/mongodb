@@ -30,3 +30,23 @@ sudo systemctl enable mongod
 ```
 mongod --version
 ```
+
+### Jika ingin update NODE.JS
+```
+# 2. Install dependensi dasar
+sudo apt install -y curl
+
+# 3. Tambahkan NodeSource (versi LTS terbaru atau current)
+# Untuk versi stable/LTS terbaru
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+
+# Jika ingin versi current (paling baru, walau belum LTS)
+# curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+
+# 4. Install Node.js
+sudo apt install -y nodejs
+
+# 5. Cek versi
+node -v
+npm -v
+```
