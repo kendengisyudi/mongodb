@@ -3,6 +3,9 @@
 ### UPDATE SYSTEM
 ```
 sudo apt update && sudo apt upgrade -y
+```
+Restart System
+```
 sudo reboot
 ```
 ### MULAI INTALL MONGODB
