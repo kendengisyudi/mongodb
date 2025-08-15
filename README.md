@@ -41,3 +41,31 @@ sudo apt install -y nodejs
 node -v
 npm -v
 ```
+
+### Membuat titik Backup dan restore
+```
+# Install Timeshift
+sudo apt update
+sudo apt install timeshift -y
+sudo timeshift --version
+```
+```
+# Membuat snapshot manual
+sudo timeshift --create --comments "Nama File" --tags D
+```
+```
+# Melihat daftar file snapshop
+sudo timeshift --list
+```
+
+### restore menggunakan nomor snapshot (1)
+```
+# Restore Snapshot
+sudo timeshift --restore --snapshot 1
+```
+
+### delete file snapshot menggunakan nomor snapshot (2)
+```
+# Delete Snapshot
+sudo timeshift --delete --snapshot 2
+```
