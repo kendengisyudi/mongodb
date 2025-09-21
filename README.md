@@ -31,9 +31,6 @@ sudo apt install -y curl
 # Untuk versi stable/LTS terbaru
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 
-# Jika ingin versi current (paling baru, walau belum LTS)
-# curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
-
 # 4. Install Node.js
 sudo apt install -y nodejs
 sudo apt install nodejs npm -y
