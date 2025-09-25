@@ -21,22 +21,29 @@ sudo systemctl start mongod
 sudo systemctl enable mongod
 mongod --version
 ```
+
+## INSTALL NODE.JS
+
 ### 1. Install nvm
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
+
 ### 2. Muat ulang shell (pilih salah satu)
 ```
 source ~/.bashrc    # atau: source ~/.zshrc
 ```
+
 ### 3. Install Node LTS (stabil) atau versi tertentu
 ```
 nvm install --lts     # mis. v20 LTS
 ```
+
 ### 4. Pakai default ke LTS setiap kali login
 ```
 nvm alias default 'lts/*'
 ```
+
 # 5. Cek
 ```
 node -v
@@ -45,15 +52,15 @@ npm -v
 
 ### Jika ingin update NODE.JS
 ```
-# 3. Tambahkan NodeSource (versi LTS terbaru atau current)
-# Untuk versi stable/LTS terbaru
+### 3. Tambahkan NodeSource (versi LTS terbaru atau current)
+### Untuk versi stable/LTS terbaru
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 
-# 4. Install Node.js
+### 4. Install Node.js
 sudo apt install -y nodejs
 sudo apt install nodejs npm -y
 
-# 5. Cek versi
+### 5. Cek versi
 node -v
 npm -v
 ```
