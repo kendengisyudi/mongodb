@@ -24,28 +24,12 @@ mongod --version
 
 ## INSTALL NODE.JS
 
-### 1. Install nvm
+
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-```
-
-### 2. Muat ulang shell (pilih salah satu)
-```
 source ~/.bashrc    # atau: source ~/.zshrc
-```
-
-### 3. Install Node LTS (stabil) atau versi tertentu
-```
-nvm install --lts     # mis. v20 LTS
-```
-
-### 4. Pakai default ke LTS setiap kali login
-```
+nvm install --lts     # mis. v20 LT
 nvm alias default 'lts/*'
-```
-
-# 5. Cek
-```
 node -v
 npm -v
 ```
