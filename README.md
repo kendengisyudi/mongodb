@@ -23,9 +23,6 @@ mongod --version
 
 ### Jika ingin update NODE.JS
 ```
-# 2. Install dependensi dasar
-sudo apt install -y curl
-
 # 3. Tambahkan NodeSource (versi LTS terbaru atau current)
 # Untuk versi stable/LTS terbaru
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
