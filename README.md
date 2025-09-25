@@ -41,7 +41,6 @@ pm2 -v
 
 ### Jika ingin update NODE.JS
 ```
-### 3. Tambahkan NodeSource (versi LTS terbaru atau current)
 ### Untuk versi stable/LTS terbaru
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 
