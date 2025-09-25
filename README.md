@@ -21,12 +21,12 @@ sudo systemctl start mongod
 sudo systemctl enable mongod
 mongod --version
 ```
-```
 ### 1. Install nvm
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
 ### 2. Muat ulang shell (pilih salah satu)
+```
 source ~/.bashrc    # atau: source ~/.zshrc
 ```
 ### 3. Install Node LTS (stabil) atau versi tertentu
