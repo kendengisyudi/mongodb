@@ -22,17 +22,6 @@ sudo systemctl enable mongod
 mongod --version
 ```
 
-## INSTALL NODE.JS
-
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-source ~/.bashrc    # atau: source ~/.zshrc
-nvm install --lts     # mis. v20 LT
-nvm alias default 'lts/*'
-node -v
-npm -v
-```
-
 # Install PM2 secara global
 ```
 npm install -g pm2
